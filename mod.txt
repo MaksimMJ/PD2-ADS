@@ -1,0 +1,13 @@
+{
+    "name": "Alarm Delay System",
+    "description": "Delays the alarm by however many seconds.",
+    "author": "MaksimMJ",
+    "version": "1.0.0",
+    "blt_version": 2,
+    "hooks": [
+        {
+            "hook_id": "lib/managers/group_ai_states/groupaistatebase",
+            "script_path": "lua/groupaistatebase.lua"
+        }
+    ]
+}
